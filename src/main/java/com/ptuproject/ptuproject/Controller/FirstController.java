@@ -13,4 +13,10 @@ public class FirstController {
         return "greeting";
     }
 
+    @GetMapping("ptubus")
+    public String ptubus(){
+
+        return "bustime";
+    }
+
 }
